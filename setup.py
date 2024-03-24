@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-exec(open('denoising_diffusion_pytorch/version.py').read())
+exec(open('code/version.py').read())
 
 setup(
   name = 'denoising-diffusion-pytorch',
